@@ -11,7 +11,7 @@ function menuShow(){
 
 document.getElementById("download-btn").addEventListener("click", function() {
     const link = document.createElement("a");
-    link.href = "/assets/resources/downloads";  // Caminho para o seu arquivo
-    link.download = "curriculo.pdf";  // Nome do arquivo baixado
+    link.href = "../downloads"; 
+    link.download = "curriculo.pdf"; 
     link.click();
   });
