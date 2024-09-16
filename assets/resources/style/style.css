@@ -187,7 +187,7 @@ nav{
 .container {
   position: relative;
   width: 100%;
-  height: 100vh; /* Ajuste conforme necessário */
+  height: 100vh;
   overflow: hidden;
 }
 
@@ -200,7 +200,7 @@ nav{
   height: 100%;
   pointer-events: none;
   background-color: var(--one);
-  background-image: url('/assets/resources/img/stars.jpg');
+  background-image: url('assets/resources/img/stars.jpg');
   background-position: cover;
   content: "";
   animation: wallpaper 7s infinite ease-in-out alternate-reverse;
