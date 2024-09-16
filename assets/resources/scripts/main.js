@@ -2,10 +2,10 @@ function menuShow(){
     let menuMobile = document.querySelector('.mobile-menu');
     if(menuMobile.classList.contains('open')){
         menuMobile.classList.remove('open');
-        document.querySelector('.menu-icon').src="../img/svg/menu_white_36dp.svg"
+        document.querySelector('.menu-icon').src="assets/resources/img/svg/menu_white_36dp.svg"
     } else{
         menuMobile.classList.add('open');
-        document.querySelector('.menu-icon').src="../img/svg/close.svg";
+        document.querySelector('.menu-icon').src="assets/resources/img/svg/close.svg";
     }
 }
 
